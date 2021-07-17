@@ -25,7 +25,7 @@ Once the metal backplate is removed, the keys can just be popped out. They are s
 
 ## Figuring out the keyboard matrix
 
-With [@Geends](https://github.com/Geend/) logic analyzer and other hardware, we started by proping the logic level of every pin when no key is pressed. Next we toggled every LED (total of 4) one after another and observed the changes. Armed with that information we were able to make a educated guess of the keyboard matrix and with the 16 channel logic analyzer we were able to determine the full keyboard matrix.
+With [@Geends](https://github.com/Geend/) logic analyzer and other hardware, we started by probing the logic level of every pin when no key is pressed. Next we toggled every LED (total of 4) one after another and observed the changes. Armed with that information we were able to make a educated guess of the keyboard matrix and with the 16 channel logic analyzer we were able to determine the full keyboard matrix.
 
 ![](resources/IMG_3635_PREVIEW.jpg)
 
@@ -33,37 +33,37 @@ Initial testing results:
 
 | Pin Number (top left = 0)| Logic Level without Keypress |                            Function                           |
 |:------------------------:|:----------------------------:| --------------------------------------------------------------|
-| 0                        |3V                            | Keyboard Matrix: Colum 0                                      |
-| 1                        |3V                            | Keyboard Matrix: Colum 1                                      |
-| 2                        |3V                            | Keyboard Matrix: Colum 2                                      |
-| 3                        |3V                            | Keyboard Matrix: Colum 3                                      |
-| 4                        |3V                            | Keyboard Matrix: Colum 4                                      |
-| 5                        |3V                            | Keyboard Matrix: Colum 5                                      |
-| 6                        |3V                            | Keyboard Matrix: Colum 6                                      |
-| 7                        |3V                            | Keyboard Matrix: Colum 7                                      |
+| 0                        |3V                            | Keyboard Matrix: Row 0                                        |
+| 1                        |3V                            | Keyboard Matrix: Row 1                                        |
+| 2                        |3V                            | Keyboard Matrix: Row 2                                        |
+| 3                        |3V                            | Keyboard Matrix: Row 3                                        |
+| 4                        |3V                            | Keyboard Matrix: Row 4                                        |
+| 5                        |3V                            | Keyboard Matrix: Row 5                                        |
+| 6                        |3V                            | Keyboard Matrix: Row 6                                        |
+| 7                        |3V                            | Keyboard Matrix: Row 7                                        |
 | 8                        |3V                            | NumLink LED - with 3V the LED is off and on with 0.4V         |
 | 9                        |3V                            | CapsLock LED - with 3V the LED is off and on with 0.4V        |
 | 10                       |GND                           | Not connected                                                 |
-| 11                       |1V                            | Pairing LED                                                   |
-| 12                       |1V                            | Pairing LED                                                   |
-| 13                       |3V                            | ???                                                           |
-| 14                       |0V                            | Keyboard Matrix: Row 0                                        |
-| 15                       |0V                            | Keyboard Matrix: Row 1                                        |
-| 16                       |0V                            | Keyboard Matrix: Row 2                                        |
-| 17                       |0V                            | Keyboard Matrix: Row 3                                        |
-| 18                       |0V                            | Keyboard Matrix: Row 4                                        |
-| 19                       |0V                            | Keyboard Matrix: Row 5                                        |
-| 20                       |0V                            | Keyboard Matrix: Row 6                                        |
-| 21                       |0V                            | Keyboard Matrix: Row 7                                        |
-| 22                       |0V                            | Keyboard Matrix: Row 8                                        |
-| 23                       |0V                            | Keyboard Matrix: Row 9                                        |
-| 24                       |0V                            | Keyboard Matrix: Row 10                                       |
-| 25                       |0V                            | Keyboard Matrix: Row 11                                       |
-| 26                       |0V                            | Keyboard Matrix: Row 12                                       |
-| 27                       |0V                            | Keyboard Matrix: Row 13                                       |
-| 28                       |0V                            | Keyboard Matrix: Row 14                                       |
-| 29                       |0V                            | Keyboard Matrix: Row 15                                       |
-| 30                       |0V                            | Keyboard Matrix: Row 16                                       |
+| 11                       |1V                            | Pairing LED - White                                           |
+| 12                       |1V                            | Pairing LED - Red                                             |
+| 13                       |3V                            | LED Vcc                                                       |
+| 14                       |0V                            | Keyboard Matrix: Column 0                                     |
+| 15                       |0V                            | Keyboard Matrix: Column 1                                     |
+| 16                       |0V                            | Keyboard Matrix: Column 2                                     |
+| 17                       |0V                            | Keyboard Matrix: Column 3                                     |
+| 18                       |0V                            | Keyboard Matrix: Column 4                                     |
+| 19                       |0V                            | Keyboard Matrix: Column 5                                     |
+| 20                       |0V                            | Keyboard Matrix: Column 6                                     |
+| 21                       |0V                            | Keyboard Matrix: Column 7                                     |
+| 22                       |0V                            | Keyboard Matrix: Column 8                                     |
+| 23                       |0V                            | Keyboard Matrix: Column 9                                     |
+| 24                       |0V                            | Keyboard Matrix: Column 10                                    |
+| 25                       |0V                            | Keyboard Matrix: Column 11                                    |
+| 26                       |0V                            | Keyboard Matrix: Column 12                                    |
+| 27                       |0V                            | Keyboard Matrix: Column 13                                    |
+| 28                       |0V                            | Keyboard Matrix: Column 14                                    |
+| 29                       |0V                            | Keyboard Matrix: Column 15                                    |
+| 30                       |0V                            | Keyboard Matrix: Column 16                                    |
 | 31                       |3V                            | Fn LED - with 3V the LED is off and on with 0.4V              |
 | 32                       |3V                            | Rollen - with 3V the LED is off and on with 0.4V              |
 | 33                       |GND                           | Not connected                                                 |
@@ -89,22 +89,6 @@ The keyboard matrix from Surface Ergonomic Keyboard with german keys:
 | Row-14 |Num Clear   |4           |F1          |F5          |            |3           |Caps Lock   |Arrow Down  |
 | Row-15 |            |F2          |F6          |Enter       |F3          |2           |            |Arrow Left  |
 | Row-16 |Esc         |            |            |            |            |1           |B           |Ö           |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Electronic components
