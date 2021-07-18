@@ -38,73 +38,51 @@ $EndComp
 $Comp
 L Power_Protection:USBLC6-2SC6 U1
 U 1 1 60BB879E
-P 1750 4300
-F 0 "U1" H 1500 4700 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 2100 3950 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 1750 3800 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 1950 4650 50  0001 C CNN
-F 4 "C558442" H 1750 4300 50  0001 C CNN "JLCPCB"
-	1    1750 4300
+P 1900 3350
+F 0 "U1" H 1650 3750 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 2250 3000 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 1900 2850 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 2100 3700 50  0001 C CNN
+F 4 "C558442" H 1900 3350 50  0001 C CNN "JLCPCB"
+	1    1900 3350
 	1    0    0    -1  
 $EndComp
-Text GLabel 2150 1300 2    50   Input ~ 0
+Text GLabel 1850 1700 2    50   Input ~ 0
 USB_CONN_D-
-Wire Wire Line
-	1750 1250 2000 1250
-Wire Wire Line
-	2000 1250 2000 1300
-Wire Wire Line
-	2000 1300 2150 1300
-Wire Wire Line
-	1750 1350 2000 1350
-Wire Wire Line
-	2000 1350 2000 1300
-Connection ~ 2000 1300
-Text GLabel 2150 1500 2    50   Input ~ 0
+Text GLabel 1850 1600 2    50   Input ~ 0
 USB_CONN_D+
-Wire Wire Line
-	1750 1450 2000 1450
-Wire Wire Line
-	2000 1450 2000 1500
-Wire Wire Line
-	2000 1500 2150 1500
-Wire Wire Line
-	1750 1550 2000 1550
-Wire Wire Line
-	2000 1550 2000 1500
-Connection ~ 2000 1500
 $Comp
 L power:+5V #PWR010
 U 1 1 60BC49AB
-P 2400 700
-F 0 "#PWR010" H 2400 550 50  0001 C CNN
-F 1 "+5V" H 2415 873 50  0000 C CNN
-F 2 "" H 2400 700 50  0001 C CNN
-F 3 "" H 2400 700 50  0001 C CNN
-	1    2400 700 
+P 2800 1000
+F 0 "#PWR010" H 2800 850 50  0001 C CNN
+F 1 "+5V" H 2815 1173 50  0000 C CNN
+F 2 "" H 2800 1000 50  0001 C CNN
+F 3 "" H 2800 1000 50  0001 C CNN
+	1    2800 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2250 4200 2    50   Input ~ 0
+Text GLabel 2400 3250 2    50   Input ~ 0
 USB_CONN_D-
-Text GLabel 1250 4200 0    50   Input ~ 0
+Text GLabel 1400 3250 0    50   Input ~ 0
 USB_CONN_D+
-Text GLabel 2250 4400 2    50   Input ~ 0
+Text GLabel 2400 3450 2    50   Input ~ 0
 USB_D-
-Text GLabel 1250 4400 0    50   Input ~ 0
+Text GLabel 1400 3450 0    50   Input ~ 0
 USB_D+
 $Comp
 L power:GND #PWR07
 U 1 1 60BC9DBE
-P 1750 4800
-F 0 "#PWR07" H 1750 4550 50  0001 C CNN
-F 1 "GND" H 1755 4627 50  0000 C CNN
-F 2 "" H 1750 4800 50  0001 C CNN
-F 3 "" H 1750 4800 50  0001 C CNN
-	1    1750 4800
+P 1900 3850
+F 0 "#PWR07" H 1900 3600 50  0001 C CNN
+F 1 "GND" H 1905 3677 50  0000 C CNN
+F 2 "" H 1900 3850 50  0001 C CNN
+F 3 "" H 1900 3850 50  0001 C CNN
+	1    1900 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 4700 1750 4800
+	1900 3750 1900 3850
 Text GLabel 5650 2450 0    50   Input ~ 0
 USB_D+
 $Comp
@@ -478,19 +456,17 @@ Wire Wire Line
 $Comp
 L Device:Fuse_Small F1
 U 1 1 60C38506
-P 2100 750
-F 0 "F1" H 2100 935 50  0000 C CNN
-F 1 "250mA" H 2100 844 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2100 750 50  0001 C CNN
-F 3 "~" H 2100 750 50  0001 C CNN
-F 4 "C369159" H 2100 750 50  0001 C CNN "JLCPCB"
-	1    2100 750 
+P 2500 1050
+F 0 "F1" H 2500 1235 50  0000 C CNN
+F 1 "250mA" H 2500 1144 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2500 1050 50  0001 C CNN
+F 3 "~" H 2500 1050 50  0001 C CNN
+F 4 "C369159" H 2500 1050 50  0001 C CNN "JLCPCB"
+	1    2500 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 750  1900 750 
-Wire Wire Line
-	2200 750  2400 750 
+	2600 1050 2800 1050
 Text GLabel 1300 5450 2    50   Input ~ 0
 HWB
 $Comp
@@ -780,12 +756,12 @@ NoConn ~ 4600 3250
 $Comp
 L power:GND #PWR05
 U 1 1 60CD79AE
-P 1150 3400
-F 0 "#PWR05" H 1150 3150 50  0001 C CNN
-F 1 "GND" H 1155 3227 50  0000 C CNN
-F 2 "" H 1150 3400 50  0001 C CNN
-F 3 "" H 1150 3400 50  0001 C CNN
-	1    1150 3400
+P 1400 2050
+F 0 "#PWR05" H 1400 1800 50  0001 C CNN
+F 1 "GND" H 1405 1877 50  0000 C CNN
+F 2 "" H 1400 2050 50  0001 C CNN
+F 3 "" H 1400 2050 50  0001 C CNN
+	1    1400 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1074,64 +1050,6 @@ F 3 "" H 1200 7000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1200 6850 1200 7000
-Text GLabel 1850 950  2    50   Input ~ 0
-CC1
-Text GLabel 1850 1050 2    50   Input ~ 0
-CC2
-$Comp
-L power:GND #PWR0101
-U 1 1 60DEBC62
-P 3050 3700
-F 0 "#PWR0101" H 3050 3450 50  0001 C CNN
-F 1 "GND" H 3055 3527 50  0000 C CNN
-F 2 "" H 3050 3700 50  0001 C CNN
-F 3 "" H 3050 3700 50  0001 C CNN
-	1    3050 3700
-	1    0    0    -1  
-$EndComp
-Text GLabel 3000 3250 1    50   Input ~ 0
-CC1
-Text GLabel 3100 3250 1    50   Input ~ 0
-CC2
-Wire Wire Line
-	3000 3550 3000 3650
-Wire Wire Line
-	3000 3650 3050 3650
-Wire Wire Line
-	3050 3650 3050 3700
-Wire Wire Line
-	3100 3550 3100 3650
-Wire Wire Line
-	3100 3650 3050 3650
-Connection ~ 3050 3650
-$Comp
-L Device:R_Small R8
-U 1 1 60DFDDA9
-P 3100 3450
-F 0 "R8" H 3150 3500 50  0000 L CNN
-F 1 "5k1" H 3150 3400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3100 3450 50  0001 C CNN
-F 3 "~" H 3100 3450 50  0001 C CNN
-F 4 "C27834" H 3100 3450 50  0001 C CNN "JLCPCB"
-	1    3100 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R7
-U 1 1 60E03DB9
-P 3000 3450
-F 0 "R7" H 2850 3500 50  0000 L CNN
-F 1 "5k1" H 2800 3400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3000 3450 50  0001 C CNN
-F 3 "~" H 3000 3450 50  0001 C CNN
-F 4 "C27834" H 3000 3450 50  0001 C CNN "JLCPCB"
-	1    3000 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 3250 3000 3350
-Wire Wire Line
-	3100 3250 3100 3350
 Wire Wire Line
 	6850 2400 6700 2400
 $Comp
@@ -1195,16 +1113,6 @@ Wire Wire Line
 Wire Wire Line
 	10250 2300 10150 2300
 Wire Wire Line
-	10150 2400 10250 2400
-Wire Wire Line
-	10250 2500 10150 2500
-Wire Wire Line
-	10250 2700 10150 2700
-Wire Wire Line
-	10150 2800 10250 2800
-Wire Wire Line
-	10250 2900 10150 2900
-Wire Wire Line
 	10150 3000 10250 3000
 Wire Wire Line
 	10250 3100 10150 3100
@@ -1239,10 +1147,6 @@ Wire Wire Line
 Wire Wire Line
 	10150 4600 10250 4600
 Wire Wire Line
-	10250 4700 10150 4700
-Wire Wire Line
-	10150 4800 10250 4800
-Wire Wire Line
 	10250 4900 10150 4900
 Connection ~ 8900 850 
 Connection ~ 8900 1050
@@ -1256,136 +1160,126 @@ Wire Wire Line
 	4750 900  4750 1000
 Wire Wire Line
 	4250 1200 4250 1650
-Text GLabel 10150 4800 0    50   Input ~ 0
-KCON_33
-Text GLabel 10150 4700 0    50   Input ~ 0
-KCON_32
+Text GLabel 9700 5200 3    50   Input ~ 0
+RL_LED
 Text GLabel 10150 4600 0    50   Input ~ 0
-KCON_31
+KCOL_16
 Text GLabel 10150 4500 0    50   Input ~ 0
-KCON_30
+KCOL_15
 Text GLabel 10150 4400 0    50   Input ~ 0
-KCON_29
+KCOL_14
 Text GLabel 10150 4300 0    50   Input ~ 0
-KCON_28
+KCOL_13
 Text GLabel 10150 4200 0    50   Input ~ 0
-KCON_27
+KCOL_12
 Text GLabel 10150 4100 0    50   Input ~ 0
-KCON_26
+KCOL_11
 Text GLabel 10150 4000 0    50   Input ~ 0
-KCON_25
+KCOL_10
 Text GLabel 10150 3900 0    50   Input ~ 0
-KCON_24
+KCOL_9
 Text GLabel 10150 3800 0    50   Input ~ 0
-KCON_23
+KCOL_8
 Text GLabel 10150 3700 0    50   Input ~ 0
-KCON_22
+KCOL_7
 Text GLabel 10150 3600 0    50   Input ~ 0
-KCON_21
+KCOL_6
 Text GLabel 10150 3500 0    50   Input ~ 0
-KCON_20
+KCOL_5
 Text GLabel 10150 3400 0    50   Input ~ 0
-KCON_19
+KCOL_4
 Text GLabel 10150 3300 0    50   Input ~ 0
-KCON_18
+KCOL_3
 Text GLabel 10150 3200 0    50   Input ~ 0
-KCON_17
+KCOL_2
 Text GLabel 10150 3100 0    50   Input ~ 0
-KCON_16
+KCOL_1
 Text GLabel 10150 3000 0    50   Input ~ 0
-KCON_15
-Text GLabel 10150 2900 0    50   Input ~ 0
-KCON_14
-Text GLabel 10150 2800 0    50   Input ~ 0
-KCON_13
-Text GLabel 10150 2700 0    50   Input ~ 0
-KCON_12
-Text GLabel 10150 2500 0    50   Input ~ 0
-KCON_10
-Text GLabel 10150 2400 0    50   Input ~ 0
-KCON_9
+KCOL_0
+Text GLabel 9350 3150 3    50   Input ~ 0
+PRW_LED
+Text GLabel 9550 2050 1    50   Input ~ 0
+NL_LED
 Text GLabel 10150 2300 0    50   Input ~ 0
-KCON_8
+KROW_7
 Text GLabel 10150 2200 0    50   Input ~ 0
-KCON_7
+KROW_6
 Text GLabel 10150 2100 0    50   Input ~ 0
-KCON_6
+KROW_5
 Text GLabel 10150 2000 0    50   Input ~ 0
-KCON_5
+KROW_4
 Text GLabel 10150 1900 0    50   Input ~ 0
-KCON_4
+KROW_3
 Text GLabel 10150 1800 0    50   Input ~ 0
-KCON_3
+KROW_2
 Text GLabel 10150 1700 0    50   Input ~ 0
-KCON_2
+KROW_1
 Text GLabel 10150 1600 0    50   Input ~ 0
-KCON_1
+KROW_0
 Wire Wire Line
 	6850 3700 6800 3700
 Text GLabel 8150 3100 2    50   Input ~ 0
-KCON_33
+RL_LED
 Text GLabel 8150 3200 2    50   Input ~ 0
-KCON_32
+FN_LED
 Text GLabel 6800 3800 0    50   Input ~ 0
-KCON_31
+KCOL_16
 Text GLabel 6800 3900 0    50   Input ~ 0
-KCON_30
+KCOL_15
 Text GLabel 8150 4300 2    50   Input ~ 0
-KCON_29
+KCOL_14
 Text GLabel 8150 4400 2    50   Input ~ 0
-KCON_28
+KCOL_13
 Text GLabel 8150 4700 2    50   Input ~ 0
-KCON_27
+KCOL_12
 Text GLabel 8150 4800 2    50   Input ~ 0
-KCON_26
+KCOL_11
 Text GLabel 8150 4900 2    50   Input ~ 0
-KCON_25
+KCOL_10
 Text GLabel 8150 5000 2    50   Input ~ 0
-KCON_24
+KCOL_9
 Text GLabel 6800 3400 0    50   Input ~ 0
-KCON_23
+KCOL_8
 Text GLabel 6800 3500 0    50   Input ~ 0
-KCON_22
+KCOL_7
 Text GLabel 8150 3400 2    50   Input ~ 0
-KCON_21
+KCOL_6
 Text GLabel 8150 3500 2    50   Input ~ 0
-KCON_20
+KCOL_5
 Text GLabel 8150 3600 2    50   Input ~ 0
-KCON_19
+KCOL_4
 Text GLabel 8150 3700 2    50   Input ~ 0
-KCON_18
+KCOL_3
 Text GLabel 8150 3800 2    50   Input ~ 0
-KCON_17
+KCOL_2
 Text GLabel 8150 3900 2    50   Input ~ 0
-KCON_16
+KCOL_1
 Text GLabel 8150 4000 2    50   Input ~ 0
-KCON_15
-Text GLabel 8150 4100 2    50   Input ~ 0
-KCON_14
+KCOL_0
 Text GLabel 8150 2300 2    50   Input ~ 0
-KCON_13
+PRR_LED
 Text GLabel 8150 2200 2    50   Input ~ 0
-KCON_12
+PRW_LED
 Text GLabel 8150 2100 2    50   Input ~ 0
-KCON_10
+CL_LED
 Text GLabel 8150 2000 2    50   Input ~ 0
-KCON_9
+NL_LED
 Text GLabel 8150 1900 2    50   Input ~ 0
-KCON_8
+KROW_7
 Text GLabel 8150 1800 2    50   Input ~ 0
-KCON_7
+KROW_6
 Text GLabel 8150 1700 2    50   Input ~ 0
-KCON_6
+KROW_5
 Text GLabel 8150 1600 2    50   Input ~ 0
-KCON_5
+KROW_4
 Text GLabel 6800 4600 0    50   Input ~ 0
-KCON_4
+KROW_3
 Text GLabel 6800 4500 0    50   Input ~ 0
-KCON_3
+KROW_2
 Text GLabel 6800 4400 0    50   Input ~ 0
-KCON_2
+KROW_1
 Text GLabel 6800 4300 0    50   Input ~ 0
-KCON_1
+KROW_0
 Wire Wire Line
 	6850 4300 6800 4300
 Wire Wire Line
@@ -1410,8 +1304,6 @@ Wire Wire Line
 	8050 2200 8150 2200
 Wire Wire Line
 	8050 2300 8150 2300
-Wire Wire Line
-	8050 4100 8150 4100
 Wire Wire Line
 	8150 4000 8050 4000
 Wire Wire Line
@@ -1467,13 +1359,13 @@ Wire Wire Line
 Wire Wire Line
 	8750 6000 8650 6000
 Wire Wire Line
-	2250 4200 2150 4200
+	2400 3250 2300 3250
 Wire Wire Line
-	2250 4400 2150 4400
+	2400 3450 2300 3450
 Wire Wire Line
-	1350 4200 1250 4200
+	1500 3250 1400 3250
 Wire Wire Line
-	1350 4400 1250 4400
+	1500 3450 1400 3450
 $Comp
 L Connector:TestPoint TP6
 U 1 1 62CE8CB9
@@ -1530,16 +1422,14 @@ $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 60CC937A
-P 9600 2600
-F 0 "#PWR0104" H 9600 2350 50  0001 C CNN
-F 1 "GND" H 9605 2427 50  0000 C CNN
-F 2 "" H 9600 2600 50  0001 C CNN
-F 3 "" H 9600 2600 50  0001 C CNN
-	1    9600 2600
+P 9100 2600
+F 0 "#PWR0104" H 9100 2350 50  0001 C CNN
+F 1 "GND" H 9105 2427 50  0000 C CNN
+F 2 "" H 9100 2600 50  0001 C CNN
+F 3 "" H 9100 2600 50  0001 C CNN
+	1    9100 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9600 2600 10250 2600
 Wire Wire Line
 	10150 4900 10150 5000
 $Comp
@@ -1560,53 +1450,20 @@ Connection ~ 9150 1050
 Wire Wire Line
 	9150 850  9400 850 
 Connection ~ 9150 850 
-$Comp
-L Connector:USB_C_Receptacle J2
-U 1 1 60C8056F
-P 1150 1750
-F 0 "J2" H 1400 250 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 1150 2900 50  0000 C CNN
-F 2 "WiredSEK:SJ121226" H 1300 1750 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 1750 50  0001 C CNN
-	1    1150 1750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 850  3350
 Wire Wire Line
-	1150 3350 1150 3400
-NoConn ~ 1750 3050
-NoConn ~ 1750 2950
-NoConn ~ 1750 1750
-NoConn ~ 1750 1850
-NoConn ~ 1750 2050
-NoConn ~ 1750 2150
-NoConn ~ 1750 2350
-NoConn ~ 1750 2450
-NoConn ~ 1750 2650
-NoConn ~ 1750 2750
+	1400 2000 1400 2050
 Wire Wire Line
-	2400 700  2400 750 
-Wire Wire Line
-	1850 950  1750 950 
-Wire Wire Line
-	1850 1050 1750 1050
-Text GLabel 2250 850  2    50   Input ~ 0
+	2800 1000 2800 1050
+Text GLabel 1900 1400 2    50   Input ~ 0
 VBUS
-Wire Wire Line
-	1900 850  1900 750 
-Connection ~ 1900 750 
-Wire Wire Line
-	1900 750  2000 750 
-Wire Wire Line
-	1900 850  2250 850 
 Text GLabel 6700 2400 0    50   Input ~ 0
 VBUS
-Text GLabel 1900 3700 2    50   Input ~ 0
+Text GLabel 2050 2750 2    50   Input ~ 0
 VBUS
 Wire Wire Line
-	1750 3700 1900 3700
+	1900 2750 2050 2750
 Wire Wire Line
-	1750 3700 1750 3900
+	1900 2750 1900 2950
 $Comp
 L Jumper:Jumper_2_Open JP2
 U 1 1 60C99F72
@@ -1620,4 +1477,156 @@ F 3 "~" H 4750 1850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4750 2050 4750 2150
+$Comp
+L power:+5V #PWR06
+U 1 1 60F3823B
+P 9700 3100
+F 0 "#PWR06" H 9700 2950 50  0001 C CNN
+F 1 "+5V" H 9715 3273 50  0000 C CNN
+F 2 "" H 9700 3100 50  0001 C CNN
+F 3 "" H 9700 3100 50  0001 C CNN
+	1    9700 3100
+	-1   0    0    1   
+$EndComp
+Text GLabel 9600 5200 3    50   Input ~ 0
+FN_LED
+Text GLabel 9450 3150 3    50   Input ~ 0
+PRR_LED
+Text GLabel 9450 2050 1    50   Input ~ 0
+CL_LED
+$Comp
+L Device:R_Small R12
+U 1 1 60F7B369
+P 9700 5050
+F 0 "R12" H 9759 5096 50  0000 L CNN
+F 1 "2k" H 9759 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9700 5050 50  0001 C CNN
+F 3 "~" H 9700 5050 50  0001 C CNN
+F 4 "C17710" H 9700 5050 50  0001 C CNN "JLCPCB"
+	1    9700 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 60F7BD1C
+P 9600 5050
+F 0 "R10" H 9400 5100 50  0000 L CNN
+F 1 "2k" H 9450 5000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9600 5050 50  0001 C CNN
+F 3 "~" H 9600 5050 50  0001 C CNN
+F 4 "C17710" H 9600 5050 50  0001 C CNN "JLCPCB"
+	1    9600 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 4700 9600 4950
+Wire Wire Line
+	9600 5150 9600 5200
+Wire Wire Line
+	9700 4800 9700 4950
+Wire Wire Line
+	9700 4800 10250 4800
+Wire Wire Line
+	9700 5150 9700 5200
+$Comp
+L Device:R_Small R9
+U 1 1 60FCFE38
+P 9450 2300
+F 0 "R9" H 9509 2346 50  0000 L CNN
+F 1 "2k" H 9509 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9450 2300 50  0001 C CNN
+F 3 "~" H 9450 2300 50  0001 C CNN
+F 4 "C17710" H 9450 2300 50  0001 C CNN "JLCPCB"
+	1    9450 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 60FCFE43
+P 9550 2300
+F 0 "R11" H 9350 2350 50  0000 L CNN
+F 1 "2k" H 9400 2250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9550 2300 50  0001 C CNN
+F 3 "~" H 9550 2300 50  0001 C CNN
+F 4 "C17710" H 9550 2300 50  0001 C CNN "JLCPCB"
+	1    9550 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 2050 9550 2200
+Wire Wire Line
+	9550 2400 10250 2400
+Wire Wire Line
+	9450 2050 9450 2200
+Wire Wire Line
+	9450 2500 9450 2400
+Wire Wire Line
+	9450 2500 10250 2500
+Wire Wire Line
+	9600 4700 10250 4700
+$Comp
+L Device:R_Small R7
+U 1 1 61032EDD
+P 9350 2950
+F 0 "R7" H 9200 3000 50  0000 L CNN
+F 1 "??" H 9200 2900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9350 2950 50  0001 C CNN
+F 3 "~" H 9350 2950 50  0001 C CNN
+F 4 "C17710" H 9350 2950 50  0001 C CNN "JLCPCB"
+	1    9350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 2900 10250 2900
+Wire Wire Line
+	9350 3050 9350 3150
+Wire Wire Line
+	9100 2600 10250 2600
+Wire Wire Line
+	9350 2700 9350 2850
+$Comp
+L Device:R_Small R8
+U 1 1 61060C60
+P 9450 2950
+F 0 "R8" H 9500 3000 50  0000 L CNN
+F 1 "??" H 9500 2900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9450 2950 50  0001 C CNN
+F 3 "~" H 9450 2950 50  0001 C CNN
+F 4 "C17710" H 9450 2950 50  0001 C CNN "JLCPCB"
+	1    9450 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3050 9450 3150
+Wire Wire Line
+	9450 2800 9450 2850
+Wire Wire Line
+	9450 2800 10250 2800
+Wire Wire Line
+	9350 2700 10250 2700
+Wire Wire Line
+	9700 2900 9700 3100
+$Comp
+L Connector:USB_B_Micro J2
+U 1 1 6109C98B
+P 1400 1600
+F 0 "J2" H 1457 2067 50  0000 C CNN
+F 1 "USB_B_Micro" H 1457 1976 50  0000 C CNN
+F 2 "WiredSEK:GMCB05801124EU" H 1550 1550 50  0001 C CNN
+F 3 "~" H 1550 1550 50  0001 C CNN
+	1    1400 1600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 2000
+Wire Wire Line
+	1700 1600 1850 1600
+Wire Wire Line
+	1700 1700 1850 1700
+Wire Wire Line
+	1700 1400 1900 1400
+Text GLabel 2150 1050 0    50   Input ~ 0
+VBUS
+Wire Wire Line
+	2150 1050 2400 1050
+NoConn ~ 1700 1800
 $EndSCHEMATC
