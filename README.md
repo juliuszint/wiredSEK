@@ -70,25 +70,25 @@ Initial testing results:
 
 The keyboard matrix from Surface Ergonomic Keyboard with german keys:
 
-|        |  Column-0  |  Column-1  |  Column-2  |  Column-3  |  Column-4  |  Column-5  |  Column-6  |  Column-7  |
-|:------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
-| Row-0  |Num Entf    |Num 3       |Num 6       |Num 9       |Num \*      |6           |V           |L           |
-| Row-1  |Num 0       |Num 2       |Num 5       |Num 8       |Num /       |5           |C           |K           |
-| Row-2  |Y           |T           |R           |E           |W           |Q           |Pfeil oben  |H           |
-| Row-3  |<           |Num 1       |Num 4       |Num 7       |Calc        |Num Enter   |X           |J           |
-| Row-4  |-           |Bild Unten  |Bild Hoch   |Ende        |Num Lock    |Druck       |F12         |Leer        |
-| Row-5  |.           |F4          |Entf        |Pos1        |Tab         |Einfg       |F11         |G           |
-| Row-6  |,           |#           |0           |            |O           |Num +       |F10         |F           |
-| Row-7  |M           |Ä           |9           |+           |i           |\`          |F9          |D           |
-| Row-8  |N           |Num -       |8           |Ü           |U           |ß           |F8          |S           |
-| Row-9  |Backspace   |Arrow right |7           |P           |Z           |^           |F7          |A           |
-| Row-10 |Left Ctrl   |            |            |            |Right Ctrl  |            |            |            |
-| Row-11 |            |Left Shift  |            |            |            |            |            |Fn          |
-| Row-12 |            |            |Left ALT    |            |            |            |Alt Gr      |Context Menu|
-| Row-13 |Pause       |Rollen      |Chat        |Left WIN    |Lock        |Rechteck    |            |Right WIN   |
-| Row-14 |Num Clear   |4           |F1          |F5          |            |3           |Caps Lock   |Arrow Down  |
-| Row-15 |            |F2          |F6          |Enter       |F3          |2           |            |Arrow Left  |
-| Row-16 |Esc         |            |            |            |            |1           |B           |Ö           |
+|           |    Row-0   |    Row-1   |    Row-2   |    Row-3   |    Row-4   |    Row-5   |    Row-6   |    Row-7   |
+|:---------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+| Column-0  |Num Entf    |Num 3       |Num 6       |Num 9       |Num \*      |6           |V           |L           |
+| Column-1  |Num 0       |Num 2       |Num 5       |Num 8       |Num /       |5           |C           |K           |
+| Column-2  |Y           |T           |R           |E           |W           |Q           |Pfeil oben  |H           |
+| Column-3  |<           |Num 1       |Num 4       |Num 7       |Calc        |Num Enter   |X           |J           |
+| Column-4  |-           |Bild Unten  |Bild Hoch   |Ende        |Num Lock    |Druck       |F12         |Leer        |
+| Column-5  |.           |F4          |Entf        |Pos1        |Tab         |Einfg       |F11         |G           |
+| Column-6  |,           |#           |0           |            |O           |Num +       |F10         |F           |
+| Column-7  |M           |Ä           |9           |+           |i           |\`          |F9          |D           |
+| Column-8  |N           |Num -       |8           |Ü           |U           |ß           |F8          |S           |
+| Column-9  |Backspace   |Arrow right |7           |P           |Z           |^           |F7          |A           |
+| Column-10 |Left Ctrl   |            |            |            |Right Ctrl  |            |            |            |
+| Column-11 |            |Left Shift  |            |            |            |            |            |Fn          |
+| Column-12 |            |            |Left ALT    |            |            |            |Alt Gr      |Context Menu|
+| Column-13 |Pause       |Rollen      |Chat        |Left WIN    |Lock        |Rechteck    |            |Right WIN   |
+| Column-14 |Num Clear   |4           |F1          |F5          |            |3           |Caps Lock   |Arrow Down  |
+| Column-15 |            |F2          |F6          |Enter       |F3          |2           |            |Arrow Left  |
+| Column-16 |Esc         |            |            |            |            |1           |B           |Ö           |
 
 
 ## Electronic components
