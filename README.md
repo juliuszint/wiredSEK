@@ -83,7 +83,7 @@ The keyboard matrix from Surface Ergonomic Keyboard with german keys:
 | Column-8  |N           |Num -       |8           |Ü           |U           |ß           |F8          |S           |
 | Column-9  |Backspace   |Arrow right |7           |P           |Z           |^           |F7          |A           |
 | Column-10 |Left Ctrl   |            |            |            |Right Ctrl  |            |            |            |
-| Column-11 |            |Left Shift  |            |            |            |            |            |Fn          |
+| Column-11 |            |Left Shift  |            |            |            |Right Shift |            |Fn          |
 | Column-12 |            |            |Left ALT    |            |            |            |Alt Gr      |Context Menu|
 | Column-13 |Pause       |Rollen      |Chat        |Left WIN    |Lock        |Rechteck    |            |Right WIN   |
 | Column-14 |Num Clear   |4           |F1          |F5          |            |3           |Caps Lock   |Arrow Down  |
