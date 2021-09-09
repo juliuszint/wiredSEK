@@ -74,8 +74,8 @@ The keyboard matrix from Surface Ergonomic Keyboard with german keys:
 |:---------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 | Column-0  |Num Entf    |Num 3       |Num 6       |Num 9       |Num \*      |6           |V           |L           |
 | Column-1  |Num 0       |Num 2       |Num 5       |Num 8       |Num /       |5           |C           |K           |
-| Column-2  |Y           |T           |R           |E           |W           |Q           |Pfeil oben  |H           |
-| Column-3  |<           |Num 1       |Num 4       |Num 7       |Calc        |Num Enter   |X           |J           |
+| Column-2  |<           |Num 1       |Num 4       |Num 7       |Calc        |Num Enter   |X           |J           |
+| Column-3  |Y           |T           |R           |E           |W           |Q           |Pfeil oben  |H           |
 | Column-4  |-           |Bild Unten  |Bild Hoch   |Ende        |Num Lock    |Druck       |F12         |Leer        |
 | Column-5  |.           |F4          |Entf        |Pos1        |Tab         |Einfg       |F11         |G           |
 | Column-6  |,           |#           |0           |            |O           |Num +       |F10         |F           |
