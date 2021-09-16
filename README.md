@@ -90,7 +90,7 @@ The keyboard matrix from Surface Ergonomic Keyboard with german keys:
 | Column-15 |            |F2          |F6          |Enter       |F3          |2           |            |Arrow Left  |
 | Column-16 |Esc         |            |            |            |            |1           |B           |Ö           |
 
-## Creating the PCB
+## Designing the PCB
 
 The most difficult part was to find a MCU due to the chip shortage. From all the compatible controllers that are listed on QMKs website only the AT90USB646 was available. This turned out to be a perfect fit. It is a very simple MCU with enough GPIO pins, USB and a 64-TQFP package can be soldered by hand.
 
@@ -102,15 +102,34 @@ The complete board was designed with the open source software Kicad and tutorial
 
 The outline and four holes (two placeholder and two for screws) are required for the circuit board to fit inside the keyboard. The position of the FFC/FPC connector is also fixed while the rest is up to us. 
 
-The USB connector was the most difficult part to place. Because the keyboard is glued together and cannot be easily opened without damaging it, the plan is to make a small cutout where the PCB is located. So in a perfect world the connector would not need any more space than what is neccessary to switch the board. We managed this by using a right angle USB connector on the back of the PCB.
+The USB connector was the most difficult part to place. Because the keyboard is glued together and cannot be easily opened without damaging it, the plan is to make a small cutout where the PCB is located. So in a perfect world the connector would not need any more space than what is neccessary to switch the board. I managed this by using a right angle USB connector on the back of the PCB.
 
 ![](resources/routed_pcb.png)
 
-## Electronic components
+## PCB assembly
 
-[FFC/FPC Connector](https://www.digikey.de/product-detail/de/F52R-1A7H1-11034/609-F52R-1A7H1-11034DKR-ND/11564783?itemSeq=366870776)
+The USB connector, the FFC/FPC connector and the MCU had to be soldered by hand. Everything else was done by JLCPCB. These were the exact parts that i ordered. I included the USB cable not only because i like completeness, but also because not every cable will work. Between the USB connector and the PCB is only a limited amount of space for the plug.
 
-[AT90USB646-AUR](https://www.digikey.de/product-detail/de/microchip-technology/AT90USB646-AUR/AT90USB646-AURCT-ND/3789393)
+* [FFC/FPC Connector](https://www.digikey.de/product-detail/de/F52R-1A7H1-11034/609-F52R-1A7H1-11034DKR-ND/11564783?itemSeq=366870776)
+* [AT90USB646-AUR](https://www.digikey.de/product-detail/de/microchip-technology/AT90USB646-AUR/AT90USB646-AURCT-ND/3789393)
+* [Micro USB Receptacle](https://www.digikey.de/product-detail/de/amphenol-icc-commercial-products/GMCB05801124EU/664-GMCB05801124EUTR-ND/13683048)
+* [USB-Cabel](https://www.otto.de/p/primewire-premium-micro-usb-auf-usb-kabel-usb-a-stecker-auf-micro-b-stecker-600433312/#variationId=604008783)
+
+![](resources/IMG_3980_PREVIEW.jpg)
+
+## Keyboard assembly
+
+## Software
+
+## The finished Keyboard
+
+The only remaining question should be: **Why?** I would be lying if i told you that this project was not fun for me but this is not the only reason. As a programmer you type **a lot**. It therefore makes perfect sense to spend some time and optimize the device that you use to insert every single character.
+
+I stopped counting the keyboards that i used. From a 10$ standard Logitech keyboard up to a Moonlander from ZSA i tried pretty much everything. The Surface Ergnomic Keyboard from Microsoft and the Moonlander from ZSA were the ones i liked the most, sadly for different reasons.
+
+The Alcantara wrist rest, the keytravel, the switches and the ergonomic layout are the things that i enjoyed most while using the keyboard from Microsoft. Obviously the biggest downside for me was that it only connected via Bluetooth. It was laggy, could only be connected to a single computer and if you did not type for a few seconds, the keyboard went directly to sleep and it takes about a second for it to wake up while forgetting the key you pressed. Very annoying.
+
+![](resources/IMG_3974_PREVIEW.jpg)
 
 ## Related Work
 Chad Austin made a wired version of the Sculpt Ergonomic Keyboard [[1]].
