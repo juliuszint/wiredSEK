@@ -117,7 +117,14 @@ The USB connector, the FFC/FPC connector and the MCU had to be soldered by hand.
 
 ![](resources/IMG_3980_PREVIEW.jpg)
 
-## Keyboard assembly
+## Keyboard (dis)assembly
+
+Now we need a way to put our new PCB in. The `mask.odg` document contains a template that i used to mark the exact cutout. I printed it, glued it to cardboard and then used a box cutter to finish the stencil. To align it just use the side with the angled corners, put them into the battery compartment and then draw the inner lines. The rectangle at the top marks the position where the Flexible Flat Cable runs. In my first attempt this was not there and i bricked a keyboard :(. So to make sure this wont happen again, its important to first leave it there and after removing the rest, very carefully start to remove it by cutting only to a third of the depth and then break it.
+
+The only thing left is to remove the PCB cover. There are 4 screws in total holding it in place. Two of which we can just open and then we have to just remove it by pulling up on the left side until the two arms on the right side break (does not take that much force).
+
+![](resources/IMG_3983_PREVIEW.jpg)
+
 
 ## Software
 
