@@ -126,7 +126,22 @@ The only thing left is to remove the PCB cover. There are 4 screws in total hold
 ![](resources/IMG_3983_PREVIEW.jpg)
 
 
-## Software
+## Firmware
+
+Quantum Mechanical Keyboard (QMK) Firmware [[3]] is, as the name suggests, an open source firmware for keyboards. It powers the Moonlander and ErgoDoxEZ from ZSA and in general is super awesome and easy to customize. Even for completly custom keyboards like this one it is incredibly easy to get started.
+
+The added code can be found in my ![fork ](https://github.com/juliuszint/qmk_firmware) of the QMK repository on the wiredSEK branch. Basically the changes boil down to adding a new directory `keyboards/handwired/wiredSEK` and filling it with code that tells QMK what MCU it will be running on, which pins are connected to the keyboard matrix and what the keyboard layout should look like.
+
+Everything that is left to do is to compile and flash the firmware with the follwing commands:
+```
+# compile
+qmk compile -kb handwired/wiredsek -km default
+
+# flash
+sudo dfu-programmer at90usb646 erase --force
+sudo dfu-programmer at90usb646 flash handwired_wiredsek_default.hex
+sudo dfu-programmer at90usb646 launch
+```
 
 ## The finished Keyboard
 
@@ -143,3 +158,4 @@ Chad Austin made a wired version of the Sculpt Ergonomic Keyboard [[1]].
  
 [1]: https://chadaustin.me/2021/02/wired-sculpt/
 [2]: https://www.youtube.com/watch?v=C7-8nUU6e3E
+[3]: https://docs.qmk.fm/#/
